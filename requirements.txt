@@ -1,0 +1,24 @@
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Core scientific stack
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.4.2
+
+# Embeddings / ML
+sentence-transformers==2.6.1
+
+# Vector database
+chromadb==0.5.11
+
+# PDF parsing
+PyPDF2==3.0.1
+
+# HTTP / LLM client
+requests==2.32.3
+openai==1.59.8
