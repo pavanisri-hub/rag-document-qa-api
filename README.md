@@ -152,17 +152,3 @@ rag-document-qa-api/
 └─ venv/                  # Virtual environment (not committed)
 ```
 
-## Demo Video Guidance
-
-In your 2–4 minute demo video, you can:
-
-1. Show the repository structure and highlight the key modules.
-2. Start the server using `uvicorn main:app --reload`.
-3. Use Swagger (`/docs`) or curl/Postman to:
-   - Upload `test_document.txt` via `POST /upload`.
-   - Ask the Q3 revenue question via `POST /query`.
-   - Show the JSON response (either a valid answer or the structured quota error).
-   - Call `GET /report` and show the mock metrics.
-4. Briefly explain how the RAG pipeline works:
-   - Ingestion → chunk → embed → store.
-   - Query → embed → semantic search → prompt → LLM → answer + sources.
